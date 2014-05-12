@@ -1,0 +1,2 @@
+"Site","TR (seconds)","Reference (slice no)","Acquisition (pattern)","FirstTR (start volume index)","LastTR (final volume index)"
+"nki",0.645,38,"/home/data/Projects/BIRD/code/CPAC/acqusition.txt",10,"None"

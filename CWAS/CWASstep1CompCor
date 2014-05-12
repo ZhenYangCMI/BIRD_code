@@ -1,0 +1,10 @@
+connectir_subdist.R \
+--infuncs1='/home/data/Projects/Zhen/BIRD/data/subCWASFunImgFilePath_110sub_compCor.txt' \
+--ztransform \
+--brainmask1='/home/data/Projects/Zhen/BIRD/mask/CWASMask_compCor/maskAfterSpatialNormalto3mmMNI/stdMask_110sub_3mm_compCor_100prct.nii.gz' \
+--bg=/home2/data/Projects/Zhen/workingMemory/mask/MNI152_T1_GREY_3mm_25pc_mask.nii.gz \
+--memlimit=60 \
+--forks=16 \
+--threads=1 \
+--method=pearson \
+/home/data/Projects/Zhen/BIRD/results/CPAC_zy1_24_14_reorganized/compCor/CWAS_110sub

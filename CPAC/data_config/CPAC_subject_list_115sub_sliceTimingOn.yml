@@ -1,0 +1,1380 @@
+-
+    subject_id: 'M10901084'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10901084/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10901084/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10906664'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10906664/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10906664/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10908184'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10908184/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10908184/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10908781'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10908781/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10908781/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10912536'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10912536/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10912536/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10914008'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10914008/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10914008/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10915684'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10915684/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10915684/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10917902'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10917902/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10917902/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10917964'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10917964/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10917964/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10919351'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10919351/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10919351/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10920818'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10920818/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10920818/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10920859'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10920859/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10920859/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10926369'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10926369/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10926369/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10927665'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10927665/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10927665/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10927784'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10927784/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10927784/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10930424'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10930424/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10930424/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10932049'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10932049/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10932049/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10934505'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10934505/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10934505/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10935591'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10935591/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10935591/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10938497'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10938497/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10938497/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10939437'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10939437/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10939437/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10941860'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10941860/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10941860/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10942609'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10942609/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10942609/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10943484'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10943484/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10943484/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10950062'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10950062/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10950062/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10961506'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10961506/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10961506/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10966731'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10966731/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10966731/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10968007'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10968007/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10968007/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10969571'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10969571/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10969571/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10970636'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10970636/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10970636/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10972228'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10972228/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10972228/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10976479'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10976479/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10976479/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10984446'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10984446/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10984446/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10987884'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10987884/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10987884/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10996198'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSci/NIFTI/T1/M10996198/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSci/NIFTI/BOLD/M10996198/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10900451'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10900451/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10900451/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10901783'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10901783/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10901783/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10902019'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10902019/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10902019/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10903365'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10903365/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10903365/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10903384'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10903384/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10903384/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10903525'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10903525/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10903525/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10904892'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10904892/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10904892/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10905356'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10905356/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10905356/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10905922'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10905922/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10905922/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10908829'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10908829/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10908829/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10908886'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10908886/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10908886/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10910184'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10910184/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10910184/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10911693'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10911693/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10911693/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10913436'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10913436/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10913436/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10914047'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10914047/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10914047/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10914139'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10914139/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10914139/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10914275'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10914275/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10914275/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10914446'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10914446/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10914446/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10916041'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10916041/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10916041/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10917124'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10917124/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10917124/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10917289'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10917289/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10917289/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10917747'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10917747/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10917747/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10919486'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10919486/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10919486/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10920486'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10920486/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10920486/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10921437'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10921437/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10921437/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10924028'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10924028/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10924028/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10927468'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10927468/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10927468/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10927484'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10927484/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10927484/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10928159'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10928159/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10928159/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10929348'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10929348/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10929348/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10931637'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10931637/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10931637/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10934715'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10934715/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10934715/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10936649'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10936649/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10936649/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10939077'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10939077/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10939077/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10939764'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10939764/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10939764/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10942513'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10942513/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10942513/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10943391'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10943391/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10943391/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10943867'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10943867/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10943867/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10944544'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10944544/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10944544/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10945411'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10945411/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10945411/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10949662'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10949662/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10949662/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10950880'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10950880/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10950880/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10951876'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10951876/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10951876/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10952872'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10952872/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10952872/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10952992'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10952992/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10952992/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10953460'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10953460/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10953460/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10953754'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10953754/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10953754/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10954555'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10954555/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10954555/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10955568'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10955568/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10955568/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10955677'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10955677/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10955677/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10956730'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10956730/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10956730/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10956928'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10956928/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10956928/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10957850'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10957850/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10957850/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10960620'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10960620/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10960620/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10966210'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10966210/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10966210/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10967628'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10967628/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10967628/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10969847'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10969847/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10969847/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10970750'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10970750/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10970750/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10971510'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10971510/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10971510/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10975151'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10975151/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10975151/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10975411'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10975411/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10975411/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10976211'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10976211/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10976211/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10976753'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10976753/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10976753/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10976913'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10976913/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10976913/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10981315'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10981315/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10981315/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10982795'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10982795/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10982795/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10983277'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10983277/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10983277/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10987473'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10987473/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10987473/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10988976'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10988976/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10988976/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10989280'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10989280/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10989280/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10989418'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10989418/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10989418/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10990475'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10990475/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10990475/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10991053'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10991053/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10991053/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10992604'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10992604/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10992604/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10993222'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10993222/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10993222/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10994108'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10994108/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10994108/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10996445'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10996445/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10996445/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10996582'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10996582/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10996582/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10997584'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10997584/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10997584/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'
+-
+    subject_id: 'M10998101'
+    unique_id: ''
+    anat: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10998101/Study30-001/anat.nii.gz'
+    rest: 
+      rest_rest_645: '/home/data/Incoming/DiscSciR4/mmilham/NIFTI/M10998101/Study30-001/REST_645.nii.gz'
+    scan_parameters:
+        tr: '0.645'
+        acquisition: '/home/data/Projects/BIRD/code/CPAC/acqusition.txt'
+        reference: '38'
+        first_tr: '10'
+        last_tr: 'None'

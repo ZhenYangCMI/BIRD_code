@@ -1,0 +1,14 @@
+anatomicalTemplate  :  /data/Projects/nki_rs/input/%s/%s/anat/anat.nii.gz 
+
+functionalTemplate  :  /data/Projects/nki_rs/input/%s/%s/rest/rest_645.nii.gz 
+
+subjectList  :  /home/data/Projects/distressToleronce/data/combinedSubList.txt 
+
+exclusionSubjectList  :  None 
+
+siteList  :  None 
+
+scanParametersCSV  :  /home/data/Projects/distressToleronce/code/CPAC/scan_parameters.csv 
+
+outputSubjectListLocation  :  /home/data/Projects/distressToleronce/code/CPAC 
+

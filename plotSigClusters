@@ -1,0 +1,9 @@
+
+measure=CWASME
+sign=pos
+maskDir=/home/data/Projects/BIRD/results/CPAC_zy1_24_14_reorganized/groupAnalysis_110sub/CWASME_ROI2/easythresh;
+threshResults=/home/data/Projects/BIRD/figs/CWAS_110sub/thresh_CWASME_ROI2_T1_Z_cmb.nii
+
+for clust in 2; do
+3dcalc -a ${maskDir}/cluster_mask_${measure}_ROI2_T1_Z_${sign}.nii.gz -b ${threshResults} -expr "b*equals(a,${clust})" -prefix /home/data/Projects/BIRD/figs/paper_figs/sigROIs/${measure}ROI2_${sign}_ROI${clust}.nii.gz
+done

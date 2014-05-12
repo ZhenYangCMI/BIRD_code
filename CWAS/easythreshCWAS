@@ -1,0 +1,24 @@
+# can not have space before or after the = sign
+
+standardBrain='/home/data/Projects/Zhen/hematocrit/mask/MNI152_T1_3mm_brain.nii.gz'
+mask=/home/data/Projects/Zhen/BIRD/mask/CWASMask_compCor/maskAfterSpatialNormalto3mmMNI/stdMask_110sub_3mm_compCor_100prct.nii.gz
+		
+		dataDir=/home/data/Projects/Zhen/BIRD/results/CPAC_zy1_24_14_reorganized/compCor/CWAS_110sub/mdmr3mmFWHM6
+		
+
+		for effect in age_demean DT_group_name age_demeanByDT_group; do
+
+			cd ${dataDir}
+
+			outputFile=${effect}
+
+			3dcalc -a ${dataDir}/zstats_${effect}.nii.gz \
+			-expr 'a' -prefix "${dataDir}/cp_zstats_${effect}.nii"
+
+			cmd="easythresh cp_zstats_${effect}.nii ${mask} 1.64 0.05 ${standardBrain} ${outputFile}"
+
+			echo $cmd
+			eval $cmd
+
+			rm ${dataDir}/cp_zstats_${effect}.nii
+		done

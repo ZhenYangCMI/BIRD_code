@@ -1,0 +1,48 @@
+# can not have space before or after the = sign
+#remember to modify the effect list depending on the model
+
+standBrain=/usr/share/data/fsl-mni152-templates/MNI152_T1_3mm_brain.nii.gz
+
+#for metric in CWASME_ROI1 CWASME_ROI2 CWASME_ROI3 CWASME_ROI4; do
+for metric in CWASINT_ROI1 CWASINT_ROI2 CWASINT_ROI3 CWASINT_ROI4; do
+
+
+	resultDir="/home/data/Projects/BIRD/results/CPAC_zy1_24_14_reorganized/groupAnalysis_110sub/${metric}"
+	mkdir -p ${resultDir}/easythresh
+	mask=/home/data/Projects/BIRD/mask/stdMask_110sub_compCor_100prct.nii;
+
+	if [[ ${metric} = "CWASINT_ROI1" ]] || [[ ${metric} = "CWASINT_ROI2" ]] || [[ ${metric} = "CWASINT_ROI3" ]] || [[ ${metric} = "CWASINT_ROI4" ]]  ; then
+		effectList='T1 T2 T3'
+	else
+		effectList='T1'
+	fi
+		
+	echo ${effectList}
+	for effect in ${effectList}; do
+		3dcalc -a ${resultDir}/${metric}_${effect}_Z.nii \
+		-expr 'a' -prefix "${resultDir}/easythresh/${metric}_${effect}_Z_pos.nii"
+
+		3dcalc -a ${resultDir}/${metric}_${effect}_Z.nii \
+		-expr '(-1)*a' -prefix "${resultDir}/easythresh/${metric}_${effect}_Z_neg.nii"
+
+		cd ${resultDir}/easythresh
+
+		for sign in pos neg; do
+		outputFile=${metric}_${effect}_Z_${sign}
+
+		cmd1="easythresh \
+		${metric}_${effect}_Z_${sign}.nii \
+		${mask} \
+		2.33 0.05 \
+		${standBrain} \
+		${outputFile}"
+
+		echo $cmd1
+		eval $cmd1
+	
+		done
+
+	3dcalc -a "thresh_${metric}_${effect}_Z_pos.nii.gz" -b "thresh_${metric}_${effect}_Z_neg.nii.gz" -expr 'a+b*(-1)' -prefix "thresh_${metric}_${effect}_Z_cmb.nii"
+
+	done
+done

@@ -1,0 +1,14 @@
+anatomicalTemplate  :  /data/Projects/nki_rs/input/%s/%s/anat/anat.nii.gz 
+
+functionalTemplate  :  /data/Projects/nki_rs/input/%s/%s/rest/rest_645.nii.gz 
+
+subjectList  :  /home/data/Projects/BIRD/data/subWithImg121.txt 
+
+exclusionSubjectList  :  None 
+
+siteList  :  None 
+
+scanParametersCSV  :  /home/data/Projects/BIRD/code/CPAC/scan_parameters.csv 
+
+outputSubjectListLocation  :  /home/data/Projects/BIRD/code/CPAC/data_config 
+

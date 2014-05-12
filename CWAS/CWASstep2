@@ -1,0 +1,12 @@
+connectir_mdmr.R \
+-i "/home/data/Projects/Zhen/BIRD/results/CPAC_zy1_24_14_reorganized/compCor/CWAS_110sub" \
+--formula 'age_demean + DT_group_name + age_demeanByDT_group + meanFD_demean' \
+--model "/home/data/Projects/Zhen/BIRD/data/regressionModel.csv" \
+--permutations 15000 \
+--factors2perm 'age_demean,DT_group_name,age_demeanByDT_group' \
+--forks=12 \
+--threads 1 \
+--memlimit 20 \
+--save-perms \
+mdmr3mmFWHM6
+
