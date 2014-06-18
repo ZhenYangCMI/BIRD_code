@@ -2,10 +2,11 @@ clear
 clc
 close all
 
-%addpath /home/data/Projects/Zhen/Colibazzi/code/BrainNetViewer
+addpath /home/data/Projects/Zhen/commonCode/BrainNetViewer
 %addpath /home/data/Projects/Zhen/microstate/DPARSF_preprocessed/code/colorRamp.m
+addpath /home/data/Projects/Zhen/commonCode
 
-imgInputDir = ['/home/data/Projects/Zhen/BIRD/results/CPAC_zy1_24_14_reorganized/compCor/CWAS_110sub/mdmr3mmFWHM6/'];
+imgInputDir = ['/home/data/Projects/Zhen/workingMemory/figs/paper_figs/compStrategies/compCor/CWAS/test'];
 cd (imgInputDir)
 
 NMin=-0.001; PMin = 0.001;
@@ -50,7 +51,7 @@ ColorMap=vertcat(cmap1,cmap2);
 % ColorMap=[1,1,0;1,0.8,0;1,0.4118,0;1,0,0;0,0,1;0,0.4118,1;0,0.8,1;0,1,1;];
 % ColorMap=flipdim(ColorMap,1);
 
-%ColorMap=[64, 224, 208; 106, 90, 205; 30, 144, 255; 230, 93, 184; 221, 0, 0]; % this is for < 4 clusters
+%ColorMap=[64, 224, 208; 106, 90, 205; 30, 144, 255; 230, 93, 184; 221, 0, 0]; % this is for CWAS results < 4 clusters. the cluster numbers were recoded as half neg and half pos, so the plot can be symmetric.
 %colorMap=[64, 196, 255; 106, 90, 205; 0, 128,0; 30, 144, 255; 228, 108, 10; 230, 93, 184; 221, 0, 0]; % this is for < 6 clusters
 
 %ColorMap=[102, 60, 123;228, 108, 10;0, 128,0;0, 0, 255;255, 0,

@@ -10,20 +10,20 @@ preprocessDate='1_24_14';
 % for numerical ID
 %subList=load('/home/data/Projects/Colibazzi/data/subClean_step2_98sub.txt');
 % for text ID
-subListFile=['/home/data/Projects/', project, '/data/final110sub.txt'];
+subListFile=['/home/data/Projects/Zhen/', project, '/data/final110sub.txt'];
 subList1=fopen(subListFile);
 subList=textscan(subList1, '%s', 'delimiter', '\n')
 subList=cell2mat(subList{1})
 
-numSub=length(subList)
+numSub=size(subList, 1)
 
-%measureList={'CWASME_ROI1', 'CWASME_ROI2', 'CWASME_ROI3', 'CWASME_ROI4' };
-measureList={'CWASINT_ROI1', 'CWASINT_ROI2', 'CWASINT_ROI3', 'CWASINT_ROI4'}
+%measureList={'CWASME_ROI1', 'CWASME_ROI2', 'CWASME_ROI3'};
+measureList={'CWASINT_ROI1', 'CWASINT_ROI2'}
 numMeasure=length(measureList)
 
-mask=['/home/data/Projects/', project, '/mask/stdMask_110sub_compCor_100prct.nii'];
+mask=['/home/data/Projects/Zhen/BIRD/mask/CWASMask_noGSR/stdMask_110sub_3mm_noGSR_100prct.nii.gz'];
 
-GroupAnalysis=['/home/data/Projects/', project, '/results/CPAC_zy', preprocessDate, '_reorganized/groupAnalysis_110sub/'];
+GroupAnalysis=['/home/data/Projects/Zhen/', project, '/results/CPAC_zy', preprocessDate, '_reorganized/groupAnalysis_110sub/'];
 
 % 2. set path
 addpath /home/data/HeadMotion_YCG/YAN_Program/mdmp
@@ -31,6 +31,7 @@ addpath /home/data/HeadMotion_YCG/YAN_Program
 addpath /home/data/HeadMotion_YCG/YAN_Program/TRT
 addpath /home/data/HeadMotion_YCG/YAN_Program/DPARSF_V2.2_130309
 addpath /home/data/HeadMotion_YCG/YAN_Program/spm8
+addpath /home/data/Projects/Zhen/commonCode
 [ProgramPath, fileN, extn] = fileparts(which('DPARSFA_run.m'));
 Error=[];
 addpath([ProgramPath,filesep,'Subfunctions']);
@@ -38,7 +39,7 @@ addpath([ProgramPath,filesep,'Subfunctions']);
 SPMversion=str2double(SPMversion(end));
 
 % 3. Model Creation
-[NUM,TXT,RAW]=xlsread(['/home/data/Projects/', project, '/data/regressionModel_110sub.xlsx']);
+[NUM,TXT,RAW]=xlsread(['/home/data/Projects/Zhen/', project, '/data/regressionModel_110sub.xlsx']);
 
 for j=1:numMeasure
     measure=char(measureList{j})
@@ -60,7 +61,7 @@ for j=1:numMeasure
     
     % 5. group analysis
     
-    FileName = {['/home/data/Projects/BIRD/results/CPAC_zy', preprocessDate, '_reorganized/meanRegress_110sub/', measure, '/', measure, '_AllVolume_meanRegress.nii']};
+    FileName = {['/home/data/Projects/Zhen/BIRD/results/CPAC_zy', preprocessDate, '_reorganized/meanRegress_110sub/', measure, '/', measure, '_AllVolume_meanRegress.nii']};
     % perform group analysis
     mkdir([GroupAnalysis,measure]);
     outDir=[GroupAnalysis,measure];

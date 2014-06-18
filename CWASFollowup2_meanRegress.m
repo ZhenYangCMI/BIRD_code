@@ -1,46 +1,48 @@
 clear
 clc
 
-preprocessDate='12_16_13';
-project='workingMemory';
-covType='compCor' % covType can be noGSR or compCor
 
-BrainMaskFile=['/home/data/Projects/workingMemory/mask/CPAC_12_16_13/compCor/stdMask_68sub_3mm_100percent.nii'];
-subID=load(['/home/data/Projects/workingMemory/mask/subjectList_Num_68sub.txt']);
-numSub=num2str(length(subID));
+project='BIRD';
+covType='noGSR' % covType can be noGSR or compCor
+effect='age_demeanByDT_group';  % 'DT_group_name', or 'age_demeanByDT_group'
 
-model='TotTSep' % fullModel or TotTSep
-if strcmp(model, 'TotTSep')
-    effectList={'ageByTotTdemean', 'DS_TotT_demean'};
-else
-    effectList={'DS_FT_demean', 'DS_BT_demean', 'ageByFTdemean', 'ageByBTdemean'};
-end
+BrainMaskFile=['/home/data/Projects/Zhen/BIRD/mask/CWASMask_noGSR/stdMask_110sub_3mm_noGSR_100prct.nii.gz'];
 
-for j=1:length(effectList)
-    effect=char(effectList{j}) 
+subListFile='/home/data/Projects/Zhen/BIRD/data/final110sub.txt';
+subList1=fopen(subListFile);
+subList=textscan(subList1, '%s', 'delimiter', '\n')
+subList=cell2mat(subList{1})
+numSub=size(subList, 1)
 
 % load the cluster mask
-ROIDef={['/home/data/Projects/workingMemory/results/CPAC_12_16_13/groupAnalysis/compCor/CWAS3mm/', model, 'FWHM8.mdmr/cluster_mask_', effect, '.nii.gz']}
+ROIDef=['/home/data/Projects/Zhen/BIRD/results/CPAC_zy1_24_14_reorganized/noGSR/CWAS_110sub/mdmr3mmFWHM6/cluster_mask_', effect, '.nii']
 [OutdataROI,VoxDimROI,HeaderROI]=rest_readfile(ROIDef);
-    [nDim1ROI nDim2ROI nDim3ROI]=size(OutdataROI);
-    ROI1D=reshape(OutdataROI, [], 1)';
-    %ROI1D=ROI1D(1, MaskIndex);
-    numClust=length(unique(ROI1D(find(ROI1D~=0))))
-    
+[nDim1ROI nDim2ROI nDim3ROI]=size(OutdataROI);
+ROI1D=reshape(OutdataROI, [], 1)';
+%ROI1D=ROI1D(1, MaskIndex);
+numClust=length(unique(ROI1D(find(ROI1D~=0))))
+
 
 for k=1:numClust
-    dataOutDir=['/home/data/Projects/workingMemory/results/CPAC_12_16_13/groupAnalysis/compCor/CWAS3mm/', model, FWHM8.mdmr/', effect, '_followUp/];
+    
+    if strcmp(effect, 'DT_group_name')
+        mkdir  (['/home/data/Projects/Zhen/BIRD/results/CPAC_zy1_24_14_reorganized/meanRegress_110sub/CWASME_ROI', num2str(k)])
+        dataOutDir=['/home/data/Projects/Zhen/BIRD/results/CPAC_zy1_24_14_reorganized/meanRegress_110sub/CWASME_ROI', num2str(k), '/'];
+    elseif strcmp(effect, 'age_demeanByDT_group')
+        mkdir  (['/home/data/Projects/Zhen/BIRD/results/CPAC_zy1_24_14_reorganized/meanRegress_110sub/CWASINT_ROI', num2str(k)])
+        dataOutDir=['/home/data/Projects/Zhen/BIRD/results/CPAC_zy1_24_14_reorganized/meanRegress_110sub/CWASINT_ROI', num2str(k), '/'];
+    end
     %Test if all the subjects exist
     
     FileNameSet=[];
     
-    for i=1:length(subID)
-        sub=num2str(subID(i));
+    for i=1:numSub
+        sub=subList(i, 1:9);
         
         disp(['Working on ', sub])
         
-            FileName = sprintf('/home/data/Projects/workingMemory/results/CPAC_12_16_13/groupAnalysis/compCor/CWAS3mm/', model, FWHM8.mdmr/', effect, '_followUp/ROI', numstr(k), 'FC_', effect, '_', sub.nii');
-       
+        FileName = sprintf('/home/data/Projects/Zhen/BIRD/results/CPAC_zy1_24_14_reorganized/%s/CWAS_110sub/%s_followUp/ROI%sFC_%s_%s.nii',  covType, effect, num2str(k), effect, sub);
+        
         
         if ~exist(FileName,'file')
             
@@ -124,7 +126,11 @@ for k=1:numClust
     
     Mat.Std_AllSub = Std_AllSub;
     
-    OutputName=[dataOutDir, model, '_', effect, '_ROI', num2str(k)];
+    if strcmp(effect, 'DT_group_name')
+        OutputName=[dataOutDir, 'CWASME_ROI', num2str(k)];
+    else
+        OutputName=[dataOutDir, 'CWASINT_ROI', num2str(k)];
+    end
     save([OutputName,'_MeanSTD.mat'],'Mean_AllSub','Std_AllSub');
     
     
@@ -167,7 +173,12 @@ for k=1:numClust
     Header_Out.dt    =[16,0];
     
     %write 4D file as a nift file
-    outName=[dataOutDir, model, '_', effect, '_ROI', num2str(k), '_AllVolume_meanRegress.nii'];
+    if strcmp(effect, 'DT_group_name')
+        outName=[dataOutDir, 'CWASME_ROI', num2str(k), '_AllVolume_meanRegress.nii'];
+    else
+        outName=[dataOutDir, 'CWASINT_ROI', num2str(k), '_AllVolume_meanRegress.nii'];
+    end
+    
     rest_Write4DNIfTI(AllVolumeBrain,Header_Out,outName)
     
 end

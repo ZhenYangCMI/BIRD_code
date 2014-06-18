@@ -3,7 +3,7 @@ clc
 close all
 
 sessionList={'all', 'rfMRI_REST1_RL','rfMRI_REST1_LR', 'rfMRI_REST2_RL', 'rfMRI_REST2_LR'};
-figDir = ['/home/data/Projects/HCP/figs/'];
+figDir = ['/home/data/Projects/Zhen/PCA_HCP/figs/poster_figs/'];
 norm='norm2';
 numPC=10;
 numSession=length(sessionList);
@@ -13,7 +13,7 @@ for j=1:length(sessionList)
     
     session=char(sessionList{j})
     
-    resultDir=['/home/data/Projects/HCP/results/', session, '/'];
+    resultDir=['/home/data/Projects/Zhen/PCA_HCP/results/', session, '/'];
     
     tmp=load([resultDir,'/eigenvector_', norm, '_', session,'.mat']);
     eigenVector=tmp.COEFF;
@@ -42,8 +42,8 @@ imagesc(r)
 colorbar
 caxis([-1 1])
 
- saveas(figure(1), [figDir, 'correlPCsAllandEachSesProcrustes.jpg'])
- saveas(figure(2), [figDir, 'correlPCsAllandEachSes.jpg'])
+saveas(figure(1), [figDir, 'correlPCsAllandEachSesProcrustes.jpg'])
+saveas(figure(2), [figDir, 'correlPCsAllandEachSes.jpg'])
 
 % plot the transformed and matched PCs
 allMatch=zeros(numPC, numSession);
@@ -67,10 +67,10 @@ end
 % after rematch, transform the matched PCs again
 for j=1:numSession
     ses1=allSession(:, 1:10);
-        b=allSession(:,1+10*(j-1):10*j);
+    b=allSession(:,1+10*(j-1):10*j);
     for i=1:numPC
         [d2 z2]=procrustes(ses1(:,i),b(:,allMatch(i,j)));
-        Z2(:, i, j)=z2; 
+        Z2(:, i, j)=z2;
         correl2(i,j)=corr(ses1(:,i), z2);
     end
 end
@@ -90,34 +90,36 @@ close all
 sessionList={'all', 'rfMRI_REST1_RL','rfMRI_REST1_LR', 'rfMRI_REST2_RL', 'rfMRI_REST2_LR'};
 for j=1:numSession
     sessionPC=squeeze(Z2(:,:,j));
-       
-    %figure(j)
+    
+    figure(j)
     for i=1:numPC
         PC=squareform(sessionPC(:,i));
-figure(i)
-        %subplot(3,4,i)
+        %figure(i)
+        subplot(1,10,i)
         imagesc(PC)
-        colorbar
-        if i==1
-            caxis([-0.025 0.025])
-        else
+        %colorbar
+%         if i==1
+%             caxis([-0.025 0.025])
+%         else
             caxis([-0.03 0.03])
-        end
-        title(['PC', num2str(i)])
+        %end
+        %title(['PC', num2str(i)])
+        set(gca, 'XTickLabel', [], 'YTickLabel', [])
+        
         axis square
-        saveas(figure(i), [figDir, 'PC_', num2str(i), '_', norm, '_', char(sessionList{j}) '_matchedwithAll.jpg'])
+        %saveas(figure(i), [figDir, 'PC_', num2str(i), '_', norm, '_', char(sessionList{j}) '_matchedwithAll.jpg'])
     end
-    
+    saveas(figure(j), [figDir, char(sessionList{j}) '_matchedwithAll.jpg'])
 end
 
 % compute the correlations between the matched PCs. This is for double
 % checking.
 ses1=allSession(:, 1:10);
 for j=2:numSession
-   otherSes=Z2(:,:,j);
-            for i=1:numPC
-          [r, p]=corr(ses1(:,i), otherSes(:, i));
-          rMatchedPC(i,j-1)=r;
-      end
+    otherSes=Z2(:,:,j);
+    for i=1:numPC
+        [r, p]=corr(ses1(:,i), otherSes(:, i));
+        rMatchedPC(i,j-1)=r;
+    end
 end
 

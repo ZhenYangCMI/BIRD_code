@@ -3,15 +3,15 @@
 
 standBrain=/usr/share/data/fsl-mni152-templates/MNI152_T1_3mm_brain.nii.gz
 
-#for metric in CWASME_ROI1 CWASME_ROI2 CWASME_ROI3 CWASME_ROI4; do
-for metric in CWASINT_ROI1 CWASINT_ROI2 CWASINT_ROI3 CWASINT_ROI4; do
+for metric in CWASME_ROI1 CWASME_ROI2 CWASME_ROI3; do
+#for metric in CWASINT_ROI1 CWASINT_ROI2; do
 
 
-	resultDir="/home/data/Projects/BIRD/results/CPAC_zy1_24_14_reorganized/groupAnalysis_110sub/${metric}"
+	resultDir="/home/data/Projects/Zhen/BIRD/results/CPAC_zy1_24_14_reorganized/groupAnalysis_110sub/${metric}"
 	mkdir -p ${resultDir}/easythresh
-	mask=/home/data/Projects/BIRD/mask/stdMask_110sub_compCor_100prct.nii;
+	mask=/home/data/Projects/Zhen/BIRD/mask/CWASMask_noGSR/stdMask_110sub_3mm_noGSR_100prct.nii.gz;
 
-	if [[ ${metric} = "CWASINT_ROI1" ]] || [[ ${metric} = "CWASINT_ROI2" ]] || [[ ${metric} = "CWASINT_ROI3" ]] || [[ ${metric} = "CWASINT_ROI4" ]]  ; then
+	if [[ ${metric} = "CWASINT_ROI1" ]] || [[ ${metric} = "CWASINT_ROI2" ]] ; then
 		effectList='T1 T2 T3'
 	else
 		effectList='T1'
