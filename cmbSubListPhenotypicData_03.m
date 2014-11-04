@@ -11,12 +11,12 @@ javaaddpath([codeDir, 'poi_library/dom4j-1.6.1.jar']);
 javaaddpath([codeDir, 'poi_library/stax-api-1.0.1.jar']);
 
 
-dataDir='/home/data/Projects/Zhen/BIRD/data/';
+dataDir='/home/data/Projects/Zhen/BIRD/generalizeClassifier/data/';
 
 % if has letters, read in as string; if only numbers, read in as numerical values
 %b1=textread([dataDir, 'combinedSubList.txt'],'%s');
-b1=textread([dataDir, 'svm86sub.txt'],'%s');
-[number,txt,raw]= xlsread([dataDir, 'phenotypicalData_organized.xlsx'], 'V7_136adultWithBIRD_finalCleand','A1:AE137');
+b1=textread([dataDir, '75AdultsWithBIRDAndImg.txt'],'%s');
+[number,txt,raw]= xlsread([dataDir, 'scan_dsc_1_rest_645_threshold_0.2_all_params.xlsx'], 'motion','A1:AN425');
 
 [r,c]=size(number);
 [rt,xt]=size(raw);
@@ -24,7 +24,7 @@ b1=textread([dataDir, 'svm86sub.txt'],'%s');
 
 headlines=rt-r;
 %headlines=1;
-
+delete tmp.xls
 for i=1:headlines
     str1='A';
     linenumber=sprintf('%s%d',str1,i);

@@ -11,7 +11,7 @@ javaaddpath('poi_library/dom4j-1.6.1.jar');
 javaaddpath('poi_library/stax-api-1.0.1.jar');
 
 % define path and variables
-maskDir='/home2/data/Projects/BIRD/figs/paper_figs/clusterMask/INT/';
+maskDir='/home2/data/Projects/BIRD/figs/paper_figs/clusterMask/ME/';
 atlasDir='/home2/data/Projects/workingMemory/mask/atlas/';
 
 clustList=dir([maskDir, 'cluster_mask_*.nii.gz'])
@@ -42,12 +42,13 @@ for i=1:length(clustList)
     [nDim1Mask nDim2Mask nDim3Mask]=size(OutdataMask);
     maskImg1D=reshape(OutdataMask, [], 1);
     maskImg1D=maskImg1D(standIndex, 1);
+maskImg1D=logic(maskImg1D);  % binarize the mask
     numClust=length(unique(maskImg1D(find(maskImg1D~=0))))
     
     t=t+1;
     % read in the atlas
-    atlasList={'HOC', 'HOSC', 'networks', 'brodmann', 'cerebellum'};
-    %atlasList={'HOC', 'HOSC'}
+    %atlasList={'HOC', 'HOSC', 'networks', 'brodmann', 'cerebellum'};
+    atlasList={'networks'}
     for j=1:length(atlasList)
         atlas=char(atlasList{j})
         

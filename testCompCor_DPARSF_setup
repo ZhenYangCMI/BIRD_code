@@ -1,0 +1,15 @@
+
+subList="/home/data/Projects/Zhen/BIRD/data/final110sub.txt" 
+
+for sub in `cat $subList`; do
+
+# combine WM and CSF mask
+3dcalc -a /home/data/Projects/Zhen/BIRD/testCompCor/erodedMask/${sub}_csf_eroded.nii.gz -b /home/data/Projects/Zhen/BIRD/testCompCor/erodedMask/${sub}_wm_eroded.nii.gz -expr 'a+b' -prefix /home/data/Projects/Zhen/BIRD/testCompCor/erodedMask/${sub}_csf_WM_eroded.nii
+
+# resample to 3mm space as DPARSF can not handle 2mm resolution
+#3dresample -dxyz 3.0 3.0 3.0 -prefix /home/data/Projects/Zhen/BIRD/testCompCor/mask/${sub}_WM_CSF_mask_3mm.nii -inset /home/data/Projects/Zhen/BIRD/testCompCor/mask/${sub}_WM_CSF_mask.nii
+
+# resmaple and copy the 4d Volume
+#3dresample -master /home/data/Projects/Zhen/BIRD/testCompCor/mask/${sub}_WM_CSF_mask_3mm.nii -prefix /home/data/Projects/Zhen/BIRD/testCompCor/data/${sub}_3mm.nii -inset /home/data/Projects/Zhen/BIRD/results/working/resting_preproc_${sub}/nuisance_0/_scan_rest_rest_645/_csf_threshold_0.96/func_to_2mm_flirt_applyxfm/REST_645_calc_resample_volreg_calc_maths_flirt.nii.gz
+
+done
